@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Form Example</title>
+   
+</head>
+<body>
+<header>
+    <h1>Enhanced Form Submission</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Introduction</h2>
+        <p>This page demonstrates a complete HTML5 form along with well-structured content using lists, tables, and media elements.</p>
+    </section>
+
+    <section>
+        <h2>List</h2>
+        <dl>
+            <dt> HTML5</dt>
+            <dd>The latest version of the Hypertext Markup Language, used to structure and present content on the web, with support for modern multimedia, semantic elements, and improved APIs.</dd>
+            <dt>Javascript</dt>
+            <dd>A programming language that enables interactive, dynamic, and responsive behavior on web pages, running directly in the browser</dd>
+        </dl>
+    </section>
+
+    <section>
+        <h2>Sample Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Duration</th>
+                    <th>Mode</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML & CSS Basics</td>
+                    <td>4 Weeks</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>JavaScript Fundamentals</td>
+                    <td>6 Weeks</td>
+                    <td>Hybrid</td>
+                </tr>
+                <tr>
+                    <td>Full Stack Development</td>
+                    <td>12 Weeks</td>
+                    <td>Onsite</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Media Example</h2>
+        <img src="c:\Users\TabithaNjambiKamau\Downloads\pexels-1032268979-27048764 (1).jpg" alt="HTML5 Form Demo" width="300" height="200">
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            <!-- Text input -->
+            <div>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Email input -->
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+            </div>
+
+            <!-- Password input -->
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Choose a secure password" required minlength="8">
+            </div>
+
+            
+            <!-- Select dropdown -->
+            <div>
+                <label for="course">Preferred Course:</label>
+                <select id="course" name="course" required>
+                    <option value="">-- Select a course --</option>
+                    <option value="html">HTML & CSS Basics</option>
+                    <option value="js">JavaScript Fundamentals</option>
+                    <option value="fullstack">Full Stack Development</option>
+                </select>
+            </div>
+ 
+            <!-- Submit button -->
+            <button type="submit">Submit Form</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
